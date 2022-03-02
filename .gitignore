@@ -1,0 +1,15 @@
+bunny*
+dataset
+fountain*
+Herz*
+res*
+SfM_quality_evaluation
+*.kp
+*.ply
+*.nvm
+*.jpg
+*.png
+*.mat
+*.ppm
+*.sift 
+*.pgm
