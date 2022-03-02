@@ -13,3 +13,4 @@ SfM_quality_evaluation
 *.ppm
 *.sift 
 *.pgm
+__pycache__/
