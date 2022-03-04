@@ -1,5 +1,5 @@
 # VIC PROJECT: 3D Reconstruction Using Structure-from-Motion
-![Report] (https://github.com/zmehdiz97/VIC_SFM3D/blob/main/VIC_report.pdf)
+[Report](https://github.com/zmehdiz97/VIC_SFM3D/blob/main/VIC_report.pdf)
 
 
 ### Abstract
