@@ -3,7 +3,7 @@
 
 
 ### Abstract
-motion is a technique of estimating the
+Structure from motion is a technique of estimating the
 motion of the camera and recovering three-dimensional
 (3D) scenes from 2-dimensional (2D) image sequences
 taken from two or multiple different views of one camera.
