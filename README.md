@@ -12,3 +12,5 @@ proaches to generating sparse 3D reconstructions using the
 Structure from Motion (SfM) algorithms. First, we will de-
 scribe the classical pipeline and steps of SfM. Then we will
 implement this algorithm step by step.
+
+![Reconstruction example](https://github.com/zmehdiz97/VIC_SFM3D/blob/main/reconstruction.png)
