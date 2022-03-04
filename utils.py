@@ -107,3 +107,13 @@ def ransac_rigid_transform(data, ref,iters=None):
             best_R, best_T, best_rms = R, T, rms
     
     return best_R, best_T, best_rms
+
+def load_camera_intrinsics(path):
+  f = open(path)
+  K = []
+  for i, l in enumerate(f):
+    K.append(np.array([float(coef) for coef in l.split(" ") if (coef != "\n" and coef != "")]))
+    if i == 2:
+        break
+  K = np.vstack(K)
+  return K

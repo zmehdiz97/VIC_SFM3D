@@ -37,8 +37,9 @@ class SFM(object):
         self.image_data, self.matches_data, errors = {}, {}, {}
 
 
-        self.K = np.array([[2759.48,0,1520.69],[0,2764.16,1006.81],[0,0,1]])
-
+        #self.K = np.array([[2759.48,0,1520.69],[0,2764.16,1006.81],[0,0,1]])
+        self.K = load_camera_intrinsics(os.path.join(opts.data_dir,'K.txt'))
+        print('K = ', self.K)
         
     def _LoadFeatures(self, name, return_desc=False): 
         kp = joblib.load(os.path.join(self.feat_dir,'{}.kp'.format(name)))
